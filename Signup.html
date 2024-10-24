@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" href="assets/title logo.png">
+</head>
+<body bgcolor="Silver">
+    
+    
+
+   
+
+    
+        <center>
+            <img src="assets/Logo.png" alt="" width="10%">
+            
+    <header>
+        <h1 style="background-color: red; border-radius: 100px;">Wolf Starter Create Your Account</h1>
+    </header>
+</center>
+
+
+
+    <main style="color: rgb(0, 0, 0);">
+        <form action="index.html" >
+            <fieldset>
+                <legend>Personal Information</legend>
+                <table width="30%" height="300px" >
+                            <tr>
+                                <td><label for="firstName">First Name:</label></td> 
+                                <td><input type="text" id="firstName" name="firstName" required placeholder="first Name"></td>
+                            </tr>
+                    
+                    <tr>
+                        <td><label for="lastName">Last Name:</label></td>
+                        <td><input type="text" id="lastName" name="lastName" required placeholder="last Name"></td>
+                    </tr>
+                
+                <tr>
+                    <td><label for="email">Email Address:</label></td>
+                    <td><input type="email" id="email" name="email" required placeholder="Email Address"></td>
+                </tr>
+               
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" name="password" required placeholder="Password"></td> 
+                </tr>
+               
+                <tr>
+                    <td><label for="confirmPassword">Confirm Password:</label></td>
+                    <td><input type="password" id="confirmPassword" name="confirmPassword" required placeholder=" Confirm password"></td>
+                </tr>
+                
+                
+                
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td> <input type="date" id="dob" name="dob" required></td>
+                </tr>
+                
+                <tr>
+                    <td><label>Gender:</label></td>
+
+                    <td><input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
+                       </td>
+                </tr>
+                
+                
+            </table>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Additional Information</legend>
+                <Table width="55%" height="200px" >
+                    <tr>
+                        <td><label for="country">Country:</label></td>
+                        <td> <select id="country" name="country">
+                        <option value="">Select a country</option>
+                        <option value="usa">United States</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="canada">Canada</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                        </td>
+                    </tr>
+                    
+                   
+                    <tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td><input type="tel" id="phone" name="phone" required placeholder="phone Number"></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td><label for="interests">Interests:</label><br></td>
+                        <td><input type="checkbox" id="tech" name="interests" value="tech">
+                    <label for="tech">Technology</label>
+                    <input type="checkbox" id="sports" name="interests" value="sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="music" name="interests" value="music">
+                    <label for="music">Music</label>
+                    <input type="checkbox" id="travel" name="interests" value="travel">
+                    <label for="travel">Travel</label></td>
+                    </tr>
+                    
+                    
+                    
+                    <tr>
+                        <td><label for="bio">Bio:</label><br>
+                        <td><textarea id="bio" name="bio" rows="4" cols="50"></textarea></td>
+                    </tr>
+                    
+                    
+                    
+                </Table>
+            </fieldset>
+            
+          
+            <center>
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+            <br><br>
+            
+            <input type="submit" value="Sign Up">
+        </form>
+    </main>
+    
+    <footer> <center>
+
+        <p>Already have an account? <a href="login.html">login</a></p>
+    </center>
+    </footer>
+</center>
+</body>
+</html>
